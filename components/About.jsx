@@ -28,15 +28,15 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-          Hello! I&apos;m Shivam Sharma, a passionate web developer and problem
-          solver. Currently, I&apos;m the Tech Team Lead at GDSC MVJCE, and
-          I&apos;m pursuing a B.E. degree in Computer Science and Engineering at
-          MVJ College Of Engineering in Bengaluru, India, with an expected
+          Hello! I&apos;m Aditya K. Tonk, a passionate web developer and problem
+          solver. Currently, I&apos;m the Tech Lead at Fast Data Connect, and
+          I&apos;m pursuing  BCA in Web Development and Cloud Deployment at
+          Shri Guru Ram Rai University in Dehradun, Uttarakhand, with an expected
           graduation year of 2025. I&apos;m a software developer with experience
-          in TypeScript, TailwindCSS, and JavaScript. I specialize in frameworks
-          such as React, Node.js, Next.js, React-Three-Fiber, and Three.js. My
-          knowledge extends to fundamental data structures and algorithms,
-          making me well-versed in frontend web development.
+          in MERN , Salesforce LWC , Python. I specialize in frameworks
+          such as React, Node.js, Next.js, React-Three-Fiber,.NET , QT ,Numpy, Pandas and Three.js. My
+          knowledge extends to fundamental data structures and algorithms and Cloud , Networking and OS,
+          making me well-versed in  Software/Applicatuion development.
           <br className="sm:block hidden" />
           Let&apos;s collaborate to bring your ideas to life!
         </div>
@@ -48,7 +48,7 @@ function About() {
             className="hover:text-primary w-full transition-all duration-100 ease-in flex md:items-center gap-2 md:flex-row flex-wrap word-break hover:-translate-y-2"
           >
             <EmailIcon className="w-[30px] h-[30px]" />
-            shivamsharma77607@gmail.com
+            adityatonk189@gmail.com
           </Link>
         </div>
         <div className="flex gap-5 items-center">
@@ -64,7 +64,7 @@ function About() {
           ))}
         </div>
         <Link
-          href="document/Shivam_Sharma_Resume.pdf"
+          href="document/myResume.docx"
           target="_blank"
           rel="noreferrer"
           className="w-fit"

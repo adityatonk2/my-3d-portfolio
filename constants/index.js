@@ -41,16 +41,32 @@ const services = [
     title: "Frontend Developer",
     icon: <FrontendIcon />,
   },
-  // {
-  //   title: "Backend Developer",
-  //   icon: <BackendIcon />,
-  // },
   {
     title: "Problem Solving",
     icon: <ProblemSolvingIcon />,
   },
   {
     title: "Freelancer",
+    icon: <FreelancerIcon />,
+  },
+  {
+    title: "Salesforce Developer LWC",
+    icon: <FullStackIcon />,
+  },
+  {
+    title: "Cloud Enthusiast",
+    icon: <FrontendIcon />,
+  },
+  // {
+  //   title: "Backend Developer",
+  //   icon: <BackendIcon />,
+  // },
+  {
+    title: "Programming Languages and Algo's",
+    icon: <ProblemSolvingIcon />,
+  },
+  {
+    title: "Web and Business Solutions",
     icon: <FreelancerIcon />,
   },
   // {
@@ -221,102 +237,116 @@ const technologies = {
 
 const experiences = [
   // {
-  //   title: "Full Stack Developer",
-  //   company_name: "Tech Lead at GDSC MVJCE",
-  //   icon: "/assets/company/gdsc-logo.svg",
+  //   title: "Software Developer",
+  //   company_name: "Tech Lead at Fast Data Connect",
+  //   icon: "/assets/company/fdc-logo.png",
   //   iconBg: "#E6DEDD",
-  //   date: "July 2023 - Present",
+  //   date: "January 2025 - Present",
   //   points: [
-  //     "Currently serving as the Tech Lead of GDSC, responsible for guiding technical aspects, fostering collaboration, and contributing to strategic decisions.",
-  //     "Led induction programs, ensured new member alignment with GDSC's mission, and provided technical mentorship.",
-  //     "Developed GDSC MVJCE website, enhancing the organization's online visibility.",
-  //     "Spearheaded promotional campaigns, actively engaged with the GDSC community, and played a key role in planning and executing events.",
+  //     "Currently serving as the Tech Lead of FDC, responsible for guiding technical aspects, fostering collaboration, and contributing to strategic decisions.",
+  //     "Led induction programs, ensured new member alignment with FDC's mission, and provided technical mentorship.",
+  //     "Developed Projects for FDC, enhancing the organization's online visibility.",
+  //     "Spearheaded promotional campaigns, actively engaged with the FDC community, and played a key role in planning and executing events.",
   //   ],
   // },
   {
-    title: "Frontend Developer Intern",
-    company_name: "Intern at Curowell Healthcare Private Ltd",
-    icon: "/assets/company/curowell-logo.svg",
+    title: "Salesforce and Google Cloud Apprentice",
+    company_name: "Fast Data Connect",
+    icon: "/assets/company/fdc-logo.png",
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "Jan 2025 - Present",
     points: [
-      "Developing a healthcare SaaS platform using Next.js, TypeScript, and Tailwind CSS, significantly enhancing user experience.",
-      "Maintaining an efficient codebase under senior guidance, ensuring adherence to best practices in software development.",
+      "Developed a Facility Ed-Tech Platform for Nova Nector using JS, React, Node.js, Express, Prisma, and MySQL within a month.",
+      "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
+      "Led the design and implementation of the frontend, providing a user-friendly interface for efficient facility management.",
+      "Collaborated with a backend intern throughout the internship to deliver a comprehensive solution tailored to Nova Nector needs.",
+    ],
+  },
+
+  {
+    title: "MERN Stack and Web Development",
+    company_name: "Mentor at Nova Nector software solutions",
+    icon: "/assets/company/nova-logo.jpeg",
+    iconBg: "#E6DEDD",
+    date: "October - December 2024",
+    points: [
+      "Developed a Facility Ed-Tech Platform for Nova Nector using JS, React, Node.js, Express, Prisma, and MySQL within a month.",
+      "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
+      "Led the design and implementation of the frontend, providing a user-friendly interface for efficient facility management.",
+      "Collaborated with a backend intern throughout the internship to deliver a comprehensive solution tailored to Nova Nector needs.",
+    ],
+  },
+  {
+    title: "Software Development , Web Solutions",
+    company_name: "Intern at OffBeat Pixels Private Ltd",
+    icon: "/assets/company/offbeat-pixel.png",
+    iconBg: "#E6DEDD",
+    date: "January - June 2024",
+    points: [
+      "Developing Web Solutions Using , Low Code No Code Tools like Wix , Wordpress and Shopify, significantly enhancing user experience.",
+      "Maintaining an efficient workflow under senior guidance, ensuring adherence to best practices in software development.",
       "Contributing to the DND form microfrontend, improving user interaction by 30%.",
       "Collaborating in UI/UX design efforts, leading to a 25% reduction in component development time.",
     ],
   },
-  {
-    title: "Full Stack Developer Intern",
-    company_name: "Intern at DRDO CABS",
-    icon: "/assets/company/drdo-cabs.png",
-    iconBg: "#E6DEDD",
-    date: "November 2023",
-    points: [
-      "Developed a Facility Bookings Manager for DRDO CABS using TypeScript, React, Node.js, Express, Prisma, and MySQL within a month.",
-      "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
-      "Led the design and implementation of the frontend, providing a user-friendly interface for efficient facility management.",
-      "Collaborated with a backend intern throughout the internship to deliver a comprehensive solution tailored to DRDO CABS's needs.",
-    ],
-  },
-  // {
-  //   title: "Frontend Developer",
-  //   company_name: "Tech team member at GDSC MVJCE",
-  //   icon: "/assets/company/gdsc-logo.svg",
-  //   iconBg: "#E6DEDD",
-  //   date: "February 2022 - July 2023",
-  //   points: [
-  //     "Successfully planned and executed induction programs, providing new members with crucial information about the organization's goals and values.",
-  //     "Demonstrated web development expertise by conducting CSS workshops, equipping participants with practical web design and styling skills.",
-  //     "Played a crucial role in promoting GDSC events and actively collaborated with cross-functional teams to deliver high-quality projects, fostering teamwork and innovation.",
-  //     "Actively engaged with the GDSC community, assisted in workshops, and contributed to planning and managing GDSC events, ensuring their success and growth.",
-  //   ],
-  // },
+    //  {
+    //   title: "Software Developer",
+    //   company_name: "Tech Lead at Fast Data Connect",
+    //   icon: "/assets/company/fdc-logo.png",
+    //   iconBg: "#E6DEDD",
+    //   date: "January 2025 - Present",
+    //   points: [
+    //     "Currently serving as the Tech Lead of FDC, responsible for guiding technical aspects, fostering collaboration, and contributing to strategic decisions.",
+    //     "Led induction programs, ensured new member alignment with FDC's mission, and provided technical mentorship.",
+    //     "Developed Projects for FDC, enhancing the organization's online visibility.",
+    //     "Spearheaded promotional campaigns, actively engaged with the FDC community, and played a key role in planning and executing events.",
+    //   ],
+    // },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but Aditya proved me wrong.",
+    name: "Ranjan Rai",
     designation: "CFO",
-    company: "Acme Co",
+    company: "Wow Shippings",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+          "I've never met a web developer who truly cares about their clients' success like Aditya does.",
+    name: "Abhishek Puri",
     designation: "COO",
-    company: "DEF Corp",
+    company: "Wow Shippings",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "After Aditya optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Suresh J",
+    designation: "Owner",
+    company: "Suresh Milk Services - Local Milk Business",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "QuickEdit: AI-Powered Image & Video Editor",
+    name: "WOW Shippings Live Website",
     description:
-      "QuickEdit is an AI-powered online image and video editor built using the Cloudinary AI API. It offers robust features for both images and videos, with user-friendly authentication and a tiered credit system. Enhance your media editing experience with cutting-edge AI tools!",
+      "Wow shippings is an Logistics Company and Shipping Services built using the Wix Studio , Velo and API's for integration. It offers robust features for Tracking , with user-friendly authentication and a Query Form. Enhance your Logistics Experience!",
     tags: [
       {
-        name: "typescript",
+        name: "Wix Studio",
         color: "blue-text-gradient",
       },
       {
-        name: "next.js",
+        name: "Velo JS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "Wix Components",
         color: "pink-text-gradient",
       },
       {
@@ -324,44 +354,44 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "cloudinary",
+        name: "Nodejs",
         color: "yellow-text-gradient",
       },
     ],
     image:
-      "https://res.cloudinary.com/dqiqi75hm/image/upload/v1734187202/quickedit/dp6y8s8dstqfpq7svmj5.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/QuickEdit",
-    deployed_link: "https://quick-edit-app.vercel.app",
+      "/assets/company/WS_logo.png",
+    source_code_link: "Source code is not disclosed due to company policies",
+    deployed_link: "https://www.wowshippings.com/",
   },
   {
-    name: "FigPro",
+    name: "Google Gemini Clone",
     description:
-      "FigPro is a web-based collaborative design tool similar to Figma, built using Next.js, TypeScript, Tailwind CSS, and LiveBlocks API, Fabric.js. With FigPro, teams can seamlessly collaborate on designing interfaces in real-time with a plethora of features.",
+      "its a web-based application designed in JS, built using Google Api, JavaScript, Tailwind CSS , User can seamlessly ask Interactive Questions .Solution is provided by interfaces in real-time with a Loading Animations.",
     tags: [
       {
-        name: "typescript",
+        name: "Java Script",
         color: "blue-text-gradient",
       },
       {
-        name: "next.js",
+        name: "Google API",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "tailwindc",
         color: "pink-text-gradient",
       },
       {
-        name: "fabricjs",
+        name: "Netlify",
         color: "orange-text-gradient",
       },
       {
-        name: "liveblocks",
+        name: "Async JS",
         color: "yellow-text-gradient",
       },
     ],
-    image: "/assets/projects/fig-pro.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/FigPro",
-    deployed_link: "https://fig-pro-github.vercel.app",
+    image: "/assets/projects/gem-clone.jpg",
+    source_code_link: "https://github.com/adityatonk2/Gemini-Clone",
+    deployed_link: "https://adityatonk-gemini-clone.netlify.app/",
   },
   // {
   //   name: "GDSC Website",
@@ -394,20 +424,20 @@ const projects = [
   //   deployed_link: "https://gdscmvjce.vercel.app/",
   // },
   {
-    name: "Facility Management System",
+    name: "Time Table Management System",
     description:
-      "The Facility Management System is a comprehensive management solution developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities.",
+      "The Time Table Management System is a comprehensive management solution developed using the html/css/js stack. It allows users to Analyze time slots and classes and provides role-based access control for various functionalities.",
     tags: [
       {
-        name: "typescript",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
+        name: "Html",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "css",
         color: "pink-text-gradient",
       },
       {
@@ -415,15 +445,47 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "tanstack/react-query",
+        name: "Algorithms_development",
         color: "yellow-text-gradient",
       },
     ],
-    image: "/assets/projects/facility-manager.png",
+    image: "/assets/projects/tt.jpg",
     source_code_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System",
+      "https://github.com/adityatonk2/TimeTable-Management-System",
     deployed_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
+      "https://set-even-sem-tt.netlify.app/",
+  },
+  {
+    name: "Full Stack Ecommerce Clone",
+    description:
+      "The Time Table Management System is a comprehensive management solution developed using the html/css/js stack. It allows users to Analyze time slots and classes and provides role-based access control for various functionalities.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MERN",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind Css",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Algorithms_development",
+        color: "yellow-text-gradient",
+      }
+    ],
+    image: "/assets/projects/ecom.jpg",
+    source_code_link:
+      "https://github.com/adityatonk2/E-commerce-Frontend",
+    deployed_link:
+      "https://astounding-pudding-9bb795.netlify.app//",
   },
   // {
   //   name: "Netflix Clone",
@@ -501,22 +563,22 @@ const socials = [
   {
     id: "github",
     icon: <GithubIcon />,
-    link: "https://github.com/Shivam-Sharma-1",
+    link: "https://github.com/adityatonk2",
   },
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/shivamsharma77607",
+    link: "https://www.linkedin.com/in/aditya-tonk-0b0794234/",
   },
   {
     id: "x",
     icon: <XIcon />,
-    link: "https://twitter.com/Shivam_1_Sharma",
+    link: "https://www.linkedin.com/in/aditya-tonk-0b0794234/",
   },
   {
     id: "instagram",
     icon: <InstagramIcon />,
-    link: "https://www.instagram.com/_.shivam._.here._",
+    link: "https://www.instagram.com/i_aditya_tonk/",
   },
 ];
 
